@@ -18,4 +18,9 @@ class DemoController{
     fun hello() : String {
         return "Hello"
     }
+
+    @GetMapping("/")
+    fun welcome() : String {
+        return "Welcome"
+    }
 }
